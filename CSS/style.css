@@ -1,0 +1,111 @@
+@media only screen and (max-width:1011px) {
+    /* #info {
+        position: relative;
+        top: 80vh;
+        left: -30vw;
+    } */
+
+    .details-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer{
+        position: relative;
+        top: 80vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #foote{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+.details-container {
+    display: flex;
+    gap: 5px;
+}
+
+#text{
+    color: red;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow:hidden;
+    border-right: 5px solid red;
+    width:390px;
+    animation: type 5ms steps(17), plink .5s infinite alternate;
+}
+@keyframes type{
+    from{
+        width:0px;
+    }
+}
+@keyframes plink{
+    50%{
+        border-color: transparent;
+    }
+}
+
+
+.angel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orenge{
+    background-color: orange;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.color-info{
+    display: flex;
+    gap: 10px;
+}
+
+.skyblue{
+    background-color: skyblue;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.orenge:hover{
+    background-color: white;
+    border: 1px solid gray;
+}
+.skyblue:hover{
+    background-color: white;
+    border: 1px solid gray;
+}
+.red:hover{
+    background-color: white;
+    border: 1px solid gray;
+}
+#infor{
+    color: black;
+    text-decoration: none;
+    margin-top: 6vh;
+}
+#infor:hover{
+    color: rgba(16, 13, 13, 0.849);
+}
+
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.688);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
